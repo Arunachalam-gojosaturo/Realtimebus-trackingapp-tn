@@ -1,37 +1,62 @@
-                                                                                                                        
-# TN Transit Pro
-Smart Tamil Nadu Public Bus Tracking & AI Commute Insight Application
+# 🚍 TN Transit Pro  
+### Intelligent Tamil Nadu Bus Tracking & AI Commute Insight System  
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Build-Vite-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Mobile-Capacitor-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/AI-Google%20Gemini-ff69b4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge"/>
+</p>
 
+---
 
-## Overview
+## 📌 Overview
 
-TN Transit Pro is a lightweight Android application designed to provide intelligent commute insights for public bus travelers in Tamil Nadu.
+**TN Transit Pro** is a lightweight Android application that provides AI-powered commute insights for Tamil Nadu public bus travelers.
 
-Unlike traditional schedule apps, TN Transit Pro integrates AI-driven analysis to generate realistic commute insights based on:
+Unlike static timetable apps, TN Transit Pro integrates intelligent prediction using real-world traffic patterns, weather conditions, and urban congestion signals.
 
-- Traffic patterns
-- Weather conditions
-- Urban congestion
-- Event-based delays
+Built using:
 
-Built using React + TypeScript + Vite and deployed via Capacitor as a native Android APK.
+- ⚛ React + TypeScript  
+- ⚡ Vite  
+- 📱 Capacitor (Android Runtime)  
+- 🤖 Google Gemini AI  
 
+---
 
+## 📖 Table of Contents
 
-## Key Features
+- [Features](#-features)
+- [Architecture](#-architecture)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Android Build](#-android-build)
+- [Testing](#-testing)
+- [Screenshots](#-screenshots)
+- [Performance](#-performance)
+- [Security](#-security)
+- [Future Roadmap](#-future-roadmap)
+- [Author](#-author)
 
-- Route-based commute insights
-- AI-powered delay prediction (Google Gemini API)
-- Android native APK deployment
-- Lightweight and fast loading
-- Offline fallback handling
-- Real-device testing and debugging
+---
 
+# 🚀 Features
 
+- 🚍 Route-based commute insights  
+- 🤖 AI-powered delay predictions  
+- 📱 Android native APK deployment  
+- ⚡ Lightweight and fast loading  
+- 🌐 Offline fallback support  
+- 🧪 Real device tested  
 
-## Architecture
+---
 
+# 🏗 Architecture
+
+```text
 User Interface (React + TypeScript)
         ↓
 Service Layer
@@ -43,128 +68,59 @@ Response Formatter
 Capacitor Android Runtime
 
 
-
-## Project Structure
-
 tn-transit-pro/
 │
-├── components/          UI components
-├── services/            API & AI logic
-├── android/             Capacitor Android project
-├── App.tsx              Root component
-├── vite.config.ts       Build configuration
-├── capacitor.config.ts  Android configuration
+├── components/          # UI Components
+├── services/            # AI & API logic
+├── android/             # Native Android project
+├── App.tsx
+├── vite.config.ts
+├── capacitor.config.ts
 └── package.json
+```
 
-
-
-## Technology Stack
-
-Frontend      : React + TypeScript
-Build Tool    : Vite
-Mobile Wrapper: Capacitor
-AI Engine     : Google Gemini
-Android Build : Gradle
-Debugging     : ADB Logcat
-
-
-
-## Installation & Setup
-
-1. Clone Repository
-
-git clone https://github.com/Arunachalam-gojosaturo/Realtimebus-trackingapp-tn.git
+⚙ Installation
+1️⃣ Clone Repository
+```text
+git clone https://github.com/YOUR_USERNAME/tn-transit-pro.git
 cd tn-transit-pro
-
-2. Install Dependencies
-
+```
+2️⃣ Install Dependencies
+```text
 npm install
-
-3. Configure Environment Variables
+```
+3️⃣ Configure Environment Variables
 
 Create a file named .env.local
 
 VITE_GEMINI_API_KEY=your_api_key_here
-
-4. Build Web App
-
+📦 Build Web Version
+```text
 npm run build
-
-5. Sync Android
-
+```
+📱 Android Build
+Sync Capacitor
+```text
 npx cap sync android
-
-6. Build APK
-
+Build APK
 cd android
 ./gradlew assembleDebug
+```
 
 APK Output Location:
+```text
 android/app/build/outputs/apk/debug/app-debug.apk
-
-7. Install on Device
-
+Install on Device
 adb install -r app/build/outputs/apk/debug/app-debug.apk
+```
+🧪 Testing
 
-
-## Testing
-
-- Real Android device testing
-- WebView rendering validation
-- API response parsing verification
-- Offline fallback behavior
-- Performance testing under low network
-
-
-
-## Issues Resolved
-
-- White screen issue (base path fix)
-- Environment variable injection error
-- API undefined in WebView
-- Android asset path misconfiguration
-- Gradle SDK license issue
+✔ Physical Android device tested
+✔ WebView rendering validated
+✔ API response parsing verified
+✔ Offline fallback handling
+✔ ADB logcat debugging
 
 
 
-## Performance Goals
 
-- Load time under 2 seconds
-- Minimal memory usage
-- Lightweight bundle size
-- Smooth Android WebView performance
-
-
-## Security Notes
-
-- API keys handled via environment variables
-- No personal data stored locally
-- Ethical AI usage only
-- No user tracking
-
-
-
-## Future Enhancements
-
-- Offline cached route predictions
-- Push notification alerts
-- Route bookmarking
-- Map integration
-- Tamil language support
-- Crowd density estimation
-
-
-
-## License
-
-MIT License
-
-
-## Author
-
-Arunachalam
-Android & Linux Enthusiast
-Smart Mobility & AI Application Developer
-
-
-End of README
