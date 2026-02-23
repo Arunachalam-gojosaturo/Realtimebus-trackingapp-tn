@@ -1,4 +1,4 @@
-  GNU nano 8.7.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          README.md                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+                                                                                                 
 # 🚍 TN Transit Pro
 ### Intelligent Tamil Nadu Bus Tracking & AI Commute Insight System
 
@@ -83,7 +83,7 @@ tn-transit-pro/
 ⚙ Installation
 1️⃣ Clone Repository
 ```text
-git clone https://github.com/YOUR_USERNAME/tn-transit-pro.git
+git clone https://github.com/Arunachalam-gojosaturo/tn-transit-pro.git
 cd tn-transit-pro
 ```
 2️⃣ Install Dependencies
