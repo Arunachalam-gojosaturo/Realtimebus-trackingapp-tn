@@ -121,3 +121,59 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 ✔ API response parsing verified
 ✔ Offline fallback handling
 ✔ ADB logcat debugging
+
+
+---
+
+# 📊 Project Analytics & Development Graph
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Arunachalam-gojosaturo&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arunachalam-gojosaturo&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+
+</p>
+
+---
+
+# 🔥 Contribution Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=Arunachalam-gojosaturo&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+---
+
+# 📈 Contribution Activity Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Arunachalam-gojosaturo&theme=tokyo-night&hide_border=true"/>
+
+</p>
+
+---
+
+# 👁️ Repository Visitors
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=Arunachalam-gojosaturo&label=Profile%20Views&color=blueviolet&style=flat"/>
+
+</p>
+
+---
+
+# 🧠 Built With Discipline • Engineered With Precision
+
+<p align="center">
+
+🚀 Designed & Developed by <b>Arunachalam</b>  
+⚡ Arch Linux Powered  
+📦 Capacitor + Vite + React  
+📍 Tamil Nadu – India  
+
+</p>
