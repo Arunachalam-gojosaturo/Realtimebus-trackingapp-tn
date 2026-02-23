@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">tn-transit-pro</string>
+    <string name="title_activity_main">tn-transit-pro</string>
+    <string name="package_name">com.tn.transit.pro</string>
+    <string name="custom_url_scheme">com.tn.transit.pro</string>
+</resources>

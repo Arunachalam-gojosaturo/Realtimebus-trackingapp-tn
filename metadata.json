@@ -1,0 +1,8 @@
+
+{
+  "name": "TN Transit Pro",
+  "description": "Premium real-time bus tracking for Tamil Nadu cities with AI insights, admin controls, and advanced route planning.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

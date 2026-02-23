@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>TN Transit Pro | Elite Fleet Tracking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          darkMode: 'class',
+          theme: {
+            extend: {
+              fontFamily: {
+                sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+              },
+              colors: {
+                indigo: {
+                  500: '#6366f1',
+                  600: '#4f46e5',
+                  700: '#4338ca',
+                },
+                slate: {
+                  900: '#0f172a',
+                  950: '#020617',
+                }
+              },
+              borderRadius: {
+                '3xl': '1.5rem',
+                '4xl': '2rem',
+                '5xl': '2.5rem',
+              }
+            }
+          }
+        }
+    </script>
+    <style>
+        body { 
+          font-family: 'Plus Jakarta Sans', sans-serif;
+          -webkit-tap-highlight-color: transparent;
+        }
+        
+        .glass { 
+          background: rgba(255, 255, 255, 0.7); 
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+        }
+        
+        .dark .glass { 
+          background: rgba(15, 23, 42, 0.75); 
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
+        }
+
+        .dark .card-bg {
+          background: #1e293b;
+          border-color: #334155;
+        }
+
+        * { transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease; }
+        
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 20px; }
+        .dark .custom-scrollbar::-webkit-scrollbar-thumb { background: #334155; }
+
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(10px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in { animation: fadeIn 0.4s ease-out forwards; }
+        
+        /* Smooth transitions for theme toggle */
+        .theme-transition {
+          transition: background-color 0.5s ease, color 0.5s ease;
+        }
+
+        /* Mobile specific bottom padding for nav */
+        @media (max-width: 768px) {
+          .main-content { padding-bottom: 90px; }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "d3": "https://esm.sh/d3@^7.9.0",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 min-h-screen selection:bg-indigo-500 selection:text-white theme-transition">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
