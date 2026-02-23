@@ -128,9 +128,7 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 
 ## 📊 Project Analytics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Arunachalam-gojosaturo&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
+
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Arunachalam-gojosaturo&theme=tokyonight&hide_border=true" />
