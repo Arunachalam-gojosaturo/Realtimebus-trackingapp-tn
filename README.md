@@ -73,7 +73,7 @@ Debugging     : ADB Logcat
 
 1. Clone Repository
 
-git clone https://github.com/YOUR_USERNAME/tn-transit-pro.git
+git clone https://github.com/Arunachalam-gojosaturo/Realtimebus-trackingapp-tn.git
 cd tn-transit-pro
 
 2. Install Dependencies
